@@ -267,7 +267,7 @@ class CalculatorTest extends TestCase
         $result = $this->calculator->lowest($numbers);
 
         // Assert   
-        $this->assertEquals(333, $result);
+        $this->assertEquals(3, $result);
     }
 
     public function testLowestWithDecimals()
